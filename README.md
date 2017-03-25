@@ -2,9 +2,6 @@
 
 Adds a panel on the Dashboard, with a Facebook page **Widget**.
 
-### Attention
-Please note that some users may or may not have issues with this module when it comes to using a **SSL** client.
-
 ### Installation
 
 -  open: widgets/views/facebookframe.php
