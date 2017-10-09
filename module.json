@@ -1,10 +1,10 @@
 {
     "id": "facebook",
-    "name": "Facebook",
-    "description": "Adds a Facebook page widget to HumHub`s sidebar.",
-    "keywords": ["facebook", "widget", "page"],
-    "version": "0.0.1",
+    "name": "Facebook Page",
+    "description": "Adds a Facebook widget to HumHub`s sidebar.",
+    "keywords": ["facebook","widget"],
+    "version": "1.0.0",
     "humhub": {
-        "minVersion": "1.1.2"
+    "minVersion": "1.0"
     }
 }

@@ -1,5 +1,4 @@
 <?php
-
 namespace humhub\modules\facebook;
 
 use Yii;

@@ -1,18 +1,16 @@
-## [Humhub](https://www.humhub.org/en) Facebook Module
+[![](/resources/facebooklogo.png)](https://facebook.com/)
 
-Adds a panel on the Dashboard, with a Facebook page **Widget**.
+## [HumHub](https://www.humhub.org/en) Facebook Module
 
-### Installation
+Adds a Facebook widget to HumHub`s sidebar.
 
--  open: widgets/views/facebookframe.php
--  paste your Facebook page Widget iframe code on line 13
--  then save changes and upload the module to HumHub/protected/modules
--  rename the module to **facebook**
--  go to HumHub Admin Panel and activate the module
+## Installing & Setup
+1. Download via git or normal download.
+2. Upload the content of your `humhub-facebook-module-master` to your server under `/protected/modules` and rename it `facebook`
+3. Enable the module via `ACP --> Modules --> Modules List`
+4. In `ACP --> Facebook Settings` place your Facebook URL in the configuration option then save and now you're done.
 
-### Wiki Guides
-[Here](https://github.com/GreenVolume/humhub-facebook-module/wiki)
+### __Authors:__
+@GreenMeteor
 
-__Author:__ GreenVolume
-
-Inspired by WebCrew
+@Felli

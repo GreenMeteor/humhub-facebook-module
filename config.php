@@ -1,4 +1,5 @@
 <?php
+
 namespace humhub\modules\facebook;
 
 return [
@@ -9,26 +10,18 @@ return [
         [
             'class' => \humhub\modules\dashboard\widgets\Sidebar::className(),
             'event' => \humhub\modules\dashboard\widgets\Sidebar::EVENT_INIT,
-            'callback' => array(
+            'callback' => [
                 'humhub\modules\facebook\Events',
-                'addFacebookFrame'
-            )
+                'addfacebookFrame'
+            ]
         ],
         [
             'class' => \humhub\modules\space\widgets\Sidebar::className(),
             'event' => \humhub\modules\space\widgets\Sidebar::EVENT_INIT,
-            'callback' => array(
+            'callback' => [
                 'humhub\modules\facebook\Events',
-                'addFacebookFrame'
-            )
-        ],
-        [
-            'class' => \humhub\modules\user\widgets\ProfileSidebar::className(),
-            'event' => \humhub\modules\user\widgets\ProfileSidebar::EVENT_INIT,
-            'callback' => array(
-                'humhub\modules\facebook\Events',
-                'addFacebookFrame'
-            )
+                'addfacebookFrame'
+            ]
         ],
         [
             'class' => \humhub\modules\admin\widgets\AdminMenu::className(),

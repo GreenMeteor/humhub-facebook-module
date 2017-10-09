@@ -1,15 +1,26 @@
 <?php
+
 namespace humhub\modules\facebook\widgets;
 
-use yii\base\Widget;
+use Yii;
+use yii\helpers\Url;
+use humhub\libs\Html;
+use humhub\components\Widget;
 
+/**
+ *
+ * @author Felli
+ */
 class FacebookFrame extends Widget
 {
-
     public $contentContainer;
 
-    public function run()
+    /**
+     * @inheritdoc
+     */
+   public function run()
     {
-        return $this->render('facebookframe', []);
+        $url = Yii::$app->getModule('facebook')->getServerUrl() . '/plugins/page.php?href=';
+        return $this->render('facebookframe', ['facebookUrl' => $url]);
     }
 }
