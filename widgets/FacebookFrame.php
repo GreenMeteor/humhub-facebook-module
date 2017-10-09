@@ -20,7 +20,7 @@ class FacebookFrame extends Widget
      */
    public function run()
     {
-        $url = Yii::$app->getModule('facebook')->getServerUrl() . '/plugins/page.php?href=';
+        $url = Yii::$app->getModule('facebook')->getServerUrl() . '/page.php?href=';
         return $this->render('facebookframe', ['facebookUrl' => $url]);
     }
 }
