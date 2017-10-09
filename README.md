@@ -10,6 +10,7 @@ Adds a Facebook widget to HumHub`s sidebar.
 3. Enable the module via `ACP --> Modules --> Modules List`
 4. In `ACP --> Facebook Settings` place your Facebook URL in the configuration option then save and now you're done.
 
+> Note: This module is now going through a refactoring and will not work till the refactoring is finshed!
 ### __Authors:__
 @GreenMeteor
 
