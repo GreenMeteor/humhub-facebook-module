@@ -14,6 +14,6 @@ use humhub\models\Setting;
   <div class="panel-body">
 
 <?= Html::beginTag('div') ?>
-<iframe src="<?= $facebookUrl; ?>" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<iframe src="<?= $facebookUrl; ?>" width="100%" height="500" allowtransparency="true" frameborder="0" name="iframeContainer"></iframe>
 </div>
 </div>
