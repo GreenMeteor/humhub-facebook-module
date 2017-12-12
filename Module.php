@@ -21,7 +21,7 @@ class Module extends \humhub\components\Module
     {
         $url = $this->settings->get('serverUrl');
         if (empty($url)) {
-            return 'https://facebook.com/plugins';
+            return 'https://www.facebook.com';
         }
         return $url;
     }
