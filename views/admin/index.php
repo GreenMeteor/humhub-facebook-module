@@ -16,7 +16,7 @@ use yii\helpers\Html;
         </div>
 
         <div class="form-group">
-            <?= Html::submitButton(Yii::t('FacebookModule.base', 'Save', ['class' => 'btn btn-primary', 'data-ui-loader' => ''])) ?>
+            <?= Html::submitButton(Yii::t('FacebookModule.base', 'Save'), ['class' => 'btn btn-primary', 'data-ui-loader' => '']); ?>
         </div>
 
         <?php ActiveForm::end(); ?>
