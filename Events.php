@@ -26,8 +26,8 @@ public static function addFacebookFrame($event)
         if (Yii::$app->user->isGuest) {
             return;
         }
-        $event->sender->view->registerAssetBundle(Assets::className());
-        $event->sender->addWidget(FacebookFrame::className(), [], [
+        $event->sender->view->registerAssetBundle(Assets::class);
+        $event->sender->addWidget(FacebookFrame::class, [], [
             'sortOrder' => Setting::Get('timeout', 'facebook')
         ]);
     }
