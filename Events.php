@@ -6,7 +6,7 @@ use yii\helpers\Url;
 use humhub\modules\facebook\widgets\FacebookFrame;
 use humhub\models\Setting;
 
-class Events extends \yii\base\Object
+class Events extends \yii\base\BaseObject
 {
 
     public static function onAdminMenuInit(\yii\base\Event $event)
